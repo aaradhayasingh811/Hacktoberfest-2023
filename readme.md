@@ -12,7 +12,7 @@ This is an open-source repository that gathers a variety of projects across diff
 - Create a pull request.
 
   
-![hacktoberfest-2023]()
+![hacktoberfest-2023](https://user-images.githubusercontent.com/147269756/273400316-a0173cfe-1e71-45ad-bb7b-bb1f09d9a382.jpg)
 
 
 
