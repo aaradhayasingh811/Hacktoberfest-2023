@@ -501,6 +501,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .topic-card {
+  margin-top:16px;
   padding: 24px;
   border-radius: var(--radius-8);
 }
