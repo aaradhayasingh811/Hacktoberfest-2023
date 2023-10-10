@@ -111,3 +111,5 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+
