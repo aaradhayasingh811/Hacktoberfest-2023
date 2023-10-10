@@ -967,6 +967,52 @@ body.nav-active { overflow: hidden; }
   transform: translateY(-10px);
 }
 
+.theme{
+  width: 15px;
+  height: 15px;
+}
+#themeimage{
+  width: 30px;
+  height: 30px;
+}
+#themeimage img{
+  border-radius: 100%;
+  width: 100%;
+  height:100%;
+
+}
+.dark-mode1{
+   /** Background colors */
+   --bg-wild-blue-yonder:  rgb(112, 146, 227);
+   --bg-carolina-blue: rgb(116, 146, 222);
+   --bg-prussian-blue: rgb(208, 214, 222);
+   --bg-oxford-blue:rgb(194, 231, 238) ;
+   --bg-oxford-blue-2:rgb(228, 243, 248);
+ 
+   /** Text colors */
+   --text-white: rgb(45, 44, 44);
+   --text-alice-blue: rgb(7, 2, 77);
+   --text-columbia-blue: rgb(20, 19, 19);
+   --text-wild-blue-yonder: rgb(25, 24, 24);
+   --text-carolina-blue:rgb(22, 214, 235);
+   --text-shadow-blue: hsla(222, 44%, 13%, 1);
+   --text-slate-gray: hsla(222, 47%, 11%, 1);
+ 
+   /** Gradient colors */
+   --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
+   --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+   --gradient-3: linear-gradient(0deg, #0c78e3, transparent);
+ 
+   /** Border colors */
+   --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
+   --border-prussian-blue: rgb(192, 209, 234);
+   --border-white: hsl(0, 0%, 100%);
+   --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
+ 
+   /** Default colors */
+   --white: hsl(0, 0%, 0%, 1);
+   --black: hsl(0, 0%, 100%, 1);
+}
 
 
 
@@ -1326,5 +1372,6 @@ body.nav-active { overflow: hidden; }
     gap: 40px;
     padding-inline: 120px;
   }
+
 
 }
